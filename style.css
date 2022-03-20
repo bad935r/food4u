@@ -1,0 +1,73 @@
+.title{
+    font-size:7rem;
+    color:white;
+    text-shadow: 0 0 6px black;;
+
+
+}
+
+body{
+    margin:0;
+    
+
+}
+
+
+.wrap{
+    height:100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+.head{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    transform-style: preserve-3d;
+    z-index:-1;
+}
+
+header, footer{
+    background-color:#EA5C2B;
+    color:white;
+    border-color:white;
+    box-shadow:white 0px 0px 0px 3px;color:aliceblue antiquewhite;
+    margin:0%;
+    font-size:40;
+    
+
+}
+
+
+
+
+.background {
+    transform: translate(10px) scale(2);
+
+}
+
+
+.background {
+
+    position: absolute;
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    z-index:-1;
+
+}
+img:hover {filter:brightness(40%);}
+
+button{
+    font-size:20px;
+    background-color:#FFAD60;
+    border-radius:16%;
+
+
+}
+
+
+
